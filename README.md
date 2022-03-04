@@ -11,7 +11,7 @@ Control grandMA2 use MIDICON controller
 
 Download my code and unarchive to C:
 
-Download and instal NODEJS version 14.17 from https://nodejs.org/en/
+Download and instal NODEJS version 14.17 from https://nodejs.org/dist/v14.17.0/node-v14.17.0-x64.msi
 
 Run MA2 on PC
 
