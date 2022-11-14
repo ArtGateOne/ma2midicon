@@ -28,3 +28,11 @@ node ma2midicon
 
 
 If U controller have diverent midi number - u can change it - use notepad - open ma2midicon.js
+
+
+-----------------
+
+
+!!! Program not work with old ma2onpc
+
+!! Program not work - if any executor have more then 1 row ! (thx Philipp Darpe)
