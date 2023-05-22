@@ -1,4 +1,4 @@
-
+//ma2midicon v 1.1 by  ArtGateOne
 var pageIndex = 0; //strona flash
 var wing = 1;	//bwing/fwing 1 lub 2
 
