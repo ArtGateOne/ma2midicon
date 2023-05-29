@@ -1,9 +1,10 @@
-//ma2midicon v 1.1 by  ArtGateOne
+//ma2midicon v 1.1.2 by  ArtGateOne
 var pageIndex = 0; //strona flash
 var wing = 1;	//bwing/fwing 1 lub 2
 
 var sessionnr = 0;
 var request = 0;
+var interval_on = 0;
 var encodervalue = 2;
 var controller = 0;
 var faderValue = 0;
@@ -215,7 +216,10 @@ client.onmessage = function (e) {
 		}
 
 		if (obj.responseType == "login" && obj.result === true) {
-			setInterval(interval, 500);
+			if (interval_on == 0) {
+                interval_on = 1;
+                setInterval(interval, 500);//80
+            }
 		}
 
 	}
