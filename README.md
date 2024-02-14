@@ -31,21 +31,34 @@ The buttons above the faders 1-7 correspond to the upper two rows and the lower 
 
 The grandmaster fader works and so does the blackout button.
 
+
 The upper right buttons - correspond to action buttons from
+
 101 - 108
+
 116 - 123
+
 131 - 138
+
 145 - 153
+
+
 
 Encoders
 Encoders 1 2 3 - control the respective encoders on the screen
 
 Clicking encoder 1 - sets the resolution to normal
+
 Clicking encoder 2 - sets the resolution to precise
+
 Clicking encoder - swaps encoder 3 to control as 4, and pressing again returns to control as 3
 
+
+
 Touch keys
+
 201 - 206
+
 211 - 216
 
 Page keys
