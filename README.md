@@ -1,38 +1,52 @@
 # ma2midicon
-nodejs code to control grandMA2 use midicon controller
+Rewritten from scratch code for controlling MA2 onPC - using midicon.
 
+You need to download the entire archive from GitHub and unpack it in a location of your choice.
 
-beta 1
+The code is written for Node.js - which you need to download and install exactly this version ->NODEJS version 14.17 from https://nodejs.org/dist/v14.17.0/node-v14.17.0-x64.msi
 
+Before running my code, you need to start MA2.
 
-Nodejs code to control grandMA2 use midicon midi controller - free - led feedback
+In the global settings - enable remote login.
 
-Control grandMA2 use MIDICON controller
-
-Download my code and unarchive to C:
-
-Download and instal NODEJS version 14.17 from https://nodejs.org/dist/v14.17.0/node-v14.17.0-x64.msi
-
-Run MA2 on PC
-
-ADD user "midicon" password "remote"
-
-Turn on web remote (Global settings/ remote/ login enable
-
-Start my code from CMD line
-
-node ma2midicon
-
+In the user settings, add a new user named "midicon" and set the password to "remote".
 
 ----------------
 
+Description
 
-If U controller have diverent midi number - u can change it - use notepad - open ma2midicon.js
+The faders control exec 1 - 7.
 
+The buttons above the faders 1-7 correspond to the upper two rows and the lower button respectively.
+
+The grandmaster fader works and so does the blackout button.
+
+The upper right buttons - correspond to action buttons from
+101 - 108
+116 - 123
+131 - 138
+145 - 153
+
+Encoders
+Encoders 1 2 3 - control the respective encoders on the screen
+
+Clicking encoder 1 - sets the resolution to normal
+Clicking encoder 2 - sets the resolution to precise
+Clicking encoder - swaps encoder 3 to control as 4, and pressing again returns to control as 3
+
+Touch keys
+201 - 206
+211 - 216
+
+Page keys
+allow control of faders and executors on the selected page (each works independently)
+
+In the code, there is the possibility to change the wing setting (open with notepad and change) wing = 1; is the basic mode
+wing = 2; faders and executors shifted by offset 7.
 
 -----------------
 
 
-!!! Program not work with old ma2onpc
+!!! Program not work with old ma2onpc (3.1.2.5)
 
 !! Program not work - if any executor have more then 1 row ! (thx Philipp Darpe)
