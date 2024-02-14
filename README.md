@@ -11,6 +11,16 @@ In the global settings - enable remote login.
 
 In the user settings, add a new user named "midicon" and set the password to "remote".
 
+Make sure that midicon is not being used by any other application!
+
+If it's set to In or Out in MA2, please change it to none.
+
+Now you can run my code.
+
+Right-click on the ma2midicon file and select - run with - then choose node.exe from the installed nodejs - you can set this application to always open this file type - (next time just double-click on the code icon)
+
+That's it - the program automatically exchanges messages.
+
 ----------------
 
 Description
